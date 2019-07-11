@@ -27,7 +27,7 @@ public class Add_New_Issue extends Pajeobject {
 			test = report.startTest("Test-03 : Publish_portal_Login", "Login into Publish portal magplus");
 			driver = Driverutil.getBrowser();
 			driver.manage().window().maximize();
-			System.out.println("Publish Login Test case running");
+			System.out.println("Publish Login Test case Running");
 			driver.get(P_url);
 			driver.findElement(By.id("auth_key")).sendKeys(P_user);
 			driver.findElement(By.id("password")).sendKeys(P_pass);
