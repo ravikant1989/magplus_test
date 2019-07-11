@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33054" started-at="2019-03-07T12:02:22Z" finished-at="2019-03-07T12:02:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33054" started-at="2019-03-07T12:02:22Z" finished-at="2019-03-07T12:02:55Z">
+      <class name="com.magplus.Build_generation">
+        <test-method status="PASS" signature="Parameters()[pri:0, instance:com.magplus.Build_generation@6a28ffa4]" name="Parameters" is-config="true" duration-ms="9555" started-at="2019-03-07T17:32:12Z" finished-at="2019-03-07T17:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameters -->
+        <test-method status="PASS" signature="iOSbuild()[pri:0, instance:com.magplus.Build_generation@6a28ffa4]" name="iOSbuild" duration-ms="19572" started-at="2019-03-07T17:32:22Z" finished-at="2019-03-07T17:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSbuild -->
+        <test-method status="PASS" signature="androidbuild()[pri:0, instance:com.magplus.Build_generation@6a28ffa4]" name="androidbuild" duration-ms="11216" started-at="2019-03-07T17:32:42Z" finished-at="2019-03-07T17:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidbuild -->
+        <test-method status="PASS" signature="closeb()[pri:0, instance:com.magplus.Build_generation@6a28ffa4]" name="closeb" is-config="true" duration-ms="2143" started-at="2019-03-07T17:32:53Z" finished-at="2019-03-07T17:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeb -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.magplus.Build_generation@6a28ffa4]" name="closebrowser" is-config="true" duration-ms="1" started-at="2019-03-07T17:32:55Z" finished-at="2019-03-07T17:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.magplus.Build_generation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

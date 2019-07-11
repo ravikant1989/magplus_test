@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Magplus_Testing">
+	<test name="Magplus_Login">
+		<classes>
+			         <!-- <class name="com.magplus.Magplus_Login" /> -->
+			         		</classes>
+	</test>
+	<test name="Issue Test">
+		<classes>
+		        <!-- <class name="com.magplus.Build_generation" /> -->
+                
+		</classes>
+	</test>
+	<test name="Build Generate">
+		<classes>
+                <class name="com.magplus.Add_New_Issue" />
+		</classes>
+	</test>
+</suite>

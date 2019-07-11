@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Magplus_Testing" duration-ms="242764" started-at="2019-04-08T10:09:54Z" finished-at="2019-04-08T10:13:57Z">
+    <groups>
+    </groups>
+    <test name="Magplus_Login" duration-ms="16" started-at="2019-04-08T10:09:54Z" finished-at="2019-04-08T10:09:54Z">
+    </test> <!-- Magplus_Login -->
+    <test name="Issue Test" duration-ms="42448" started-at="2019-04-08T10:09:54Z" finished-at="2019-04-08T10:10:36Z">
+      <class name="com.magplus.Build_generation">
+        <test-method status="PASS" signature="iOSbuild()[pri:8, instance:com.magplus.Build_generation@735b478]" name="iOSbuild" duration-ms="33080" started-at="2019-04-08T15:39:54Z" finished-at="2019-04-08T15:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSbuild -->
+        <test-method status="PASS" signature="androidbuild()[pri:9, instance:com.magplus.Build_generation@735b478]" name="androidbuild" duration-ms="8867" started-at="2019-04-08T15:40:27Z" finished-at="2019-04-08T15:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidbuild -->
+        <test-method status="PASS" signature="closeb()[pri:0, instance:com.magplus.Build_generation@735b478]" name="closeb" is-config="true" duration-ms="472" started-at="2019-04-08T15:40:36Z" finished-at="2019-04-08T15:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeb -->
+      </class> <!-- com.magplus.Build_generation -->
+    </test> <!-- Issue Test -->
+    <test name="Build Generate" duration-ms="200233" started-at="2019-04-08T10:10:36Z" finished-at="2019-04-08T10:13:57Z">
+      <class name="com.magplus.Add_New_Issue">
+        <test-method status="PASS" signature="Parameters()[pri:0, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Parameters" is-config="true" duration-ms="10692" started-at="2019-04-08T15:39:43Z" finished-at="2019-04-08T15:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameters -->
+        <test-method status="PASS" signature="Publish_Login()[pri:1, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Publish_Login" duration-ms="33233" started-at="2019-04-08T15:40:36Z" finished-at="2019-04-08T15:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Publish_Login -->
+        <test-method status="PASS" signature="Add_Issue()[pri:4, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Add_Issue" duration-ms="48681" started-at="2019-04-08T15:41:10Z" finished-at="2019-04-08T15:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Issue -->
+        <test-method status="PASS" signature="Publish_Issue()[pri:5, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Publish_Issue" duration-ms="99101" started-at="2019-04-08T15:41:58Z" finished-at="2019-04-08T15:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Publish_Issue -->
+        <test-method status="PASS" signature="Editing_issue()[pri:6, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Editing_issue" duration-ms="8943" started-at="2019-04-08T15:43:37Z" finished-at="2019-04-08T15:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editing_issue -->
+        <test-method status="PASS" signature="Delete_issue()[pri:7, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="Delete_issue" duration-ms="9761" started-at="2019-04-08T15:43:46Z" finished-at="2019-04-08T15:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_issue -->
+        <test-method status="PASS" signature="closeb()[pri:0, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="closeb" is-config="true" duration-ms="496" started-at="2019-04-08T15:43:56Z" finished-at="2019-04-08T15:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeb -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.magplus.Add_New_Issue@3dd3bcd]" name="closebrowser" is-config="true" duration-ms="1" started-at="2019-04-08T15:43:57Z" finished-at="2019-04-08T15:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.magplus.Add_New_Issue -->
+    </test> <!-- Build Generate -->
+  </suite> <!-- Magplus_Testing -->
+</testng-results>
