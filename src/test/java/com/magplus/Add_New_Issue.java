@@ -24,7 +24,7 @@ public class Add_New_Issue extends Pajeobject {
 	public void Publish_Login() throws IOException {
 		try {
 			System.out.println("@Test Case 3:");
-			test = report.startTest("Test-03 : Publish portal Login", "Login into Publish portal magplus");
+			test = report.startTest("Test-03 : Publish_portal_Login", "Login into Publish portal magplus");
 			driver = Driverutil.getBrowser();
 			driver.manage().window().maximize();
 			System.out.println("Publish Login Test case running");
